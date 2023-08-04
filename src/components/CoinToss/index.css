@@ -1,0 +1,48 @@
+/* Write your CSS here */
+.bg-color {
+  background-image: linear-gradient(to right, #e2a139, #f9d423);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heads-img {
+  height: 80px;
+  width: 80px;
+}
+
+.results-values {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+}
+.btn {
+  height: 30px;
+  width: 80px;
+  padding: 5px;
+  text-align: center;
+  color: black;
+  background-color: #f9d423;
+  border-radius: 5px;
+  border: 1px solid white;
+}
+
+.card {
+  height: 500px;
+  width: 300px;
+  background-color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.count {
+  margin-right: 10px;
+}
+.head {
+  color:  #a35200;
+}
